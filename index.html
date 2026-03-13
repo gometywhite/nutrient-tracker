@@ -484,6 +484,7 @@
 // linked: checking one ID auto-checks all linked IDs
 const LINKS = [
   ['mg12', 'k12'],                         // blackstrap molasses: Mg <-> K
+  ['mg13', 'oth5'],                        // grains: Mg <-> Other
   ['mg3b', 'lec3'],                              // sunflower seeds: Mg <-> Lecithin
   ['mg3c', 'o35'],                               // hemp seeds: Mg <-> O3
   ['mg4', 'k2'],                                 // beans/legumes: Mg <-> K
@@ -519,7 +520,7 @@ const DATA = [
       { id: 'mg3b', name: 'Sunflower seeds', amount: '~3 Tbsp (¼ cup)' },
       { id: 'mg3c', name: 'Hemp seeds', amount: '~3 Tbsp (¼ cup)' },
       { id: 'mg4', name: 'Beans / legumes', amount: '1 cup' },
-      { id: 'mg5', name: 'Spinach / leafy greens', amount: '1 cup cooked' },
+      { id: 'mg5', name: 'Spinach / leafy greens / cruciferous', amount: '1 cup cooked' },
       { id: 'mg6', name: 'Avocado', amount: '1 medium' },
       { id: 'mg7', name: 'Banana', amount: '1 medium' },
       { id: 'mg8', name: 'Salmon (wild)', amount: '3–6 oz' },
@@ -527,6 +528,7 @@ const DATA = [
       { id: 'mg10', name: 'Fortified soy / oat milk', amount: '1 cup' },
       { id: 'mg11', name: 'Roasted soy nuts', amount: '~3 Tbsp (¼ cup)' },
       { id: 'mg12', name: 'Blackstrap molasses', amount: '1 Tbsp' },
+      { id: 'mg13', name: 'Brown rice / quinoa / wild rice / oats', amount: '1 cup cooked' },
     ]
   },
   {
@@ -568,7 +570,7 @@ const DATA = [
       { id: 'vd8', name: 'Almond milk (fortified)', amount: '1 cup' },
       { id: 'vd9', name: 'Milk', amount: '1 cup' },
       { id: 'vk1', name: 'Natto', amount: '~3 Tbsp', group: 'Vitamin K' },
-      { id: 'vk2', name: 'Spinach / leafy greens', amount: '1 cup cooked', group: 'Vitamin K' },
+      { id: 'vk2', name: 'Spinach / leafy greens / cruciferous', amount: '1 cup cooked', group: 'Vitamin K' },
       { id: 'vk3', name: 'Egg yolks', amount: '4 large', group: 'Vitamin K' },
       { id: 'vk4', name: 'Avocado', amount: '1 medium', group: 'Vitamin K' },
     ]
@@ -579,6 +581,8 @@ const DATA = [
       { id: 'oth1', name: 'Seaweed / 김', amount: 'Iodine' },
       { id: 'oth2', name: 'Other fruits', amount: '' },
       { id: 'oth3', name: 'Oysters / mussels / clams / squid', amount: '3 oz' },
+      { id: 'oth4', name: 'Kimchi', amount: '½ cup' },
+      { id: 'oth5', name: 'Brown rice / quinoa / wild rice / oats', amount: '1 cup cooked' },
     ]
   },
   {
